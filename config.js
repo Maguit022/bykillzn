@@ -6,7 +6,7 @@ import fs from 'fs'
 
 global.owner = [
   ['51972005505', '𝐌𝐚𝐠𝐨𝐁𝐨𝐭', true],
-  ['51955095498', '@𝐟𝐟𝐱𝐫𝐲𝐮.𝟏𝟖', true],
+  ['51972005505', '@0_mago.ff', true],
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
