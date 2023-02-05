@@ -407,7 +407,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.youtube.com/channel/UCVffcsDwUR2iVXeC-b4yprw', '𝚈𝙾𝚄𝚃𝚄𝙱𝙴', 'https://github.com/IdkJhus', '𝙶𝙸𝚃𝙷𝚄𝙱', [
+conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.youtube.com', '𝚈𝙾𝚄𝚃𝚄𝙱𝙴', 'https://github.com/Maguit022', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['💻 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼 💻', '/donasi'],
 ['🔖 𝙾𝚆𝙽𝙴𝚁 🔖', '/owner'],
 ['🧧 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🧧', '/infobot']
