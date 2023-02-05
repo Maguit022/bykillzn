@@ -8,8 +8,8 @@ global.owner = [
   ['51972005505', '@0_mago.ff', true],
   ['51972005505', '@0_mago.ff', true],
 ] // Cambia los numeros que quieras
-global.mods = [51972005505] 
-global.prems = [51972005505] 
+global.mods = [] 
+global.prems = [] 
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
