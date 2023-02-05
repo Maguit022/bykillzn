@@ -5,11 +5,11 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['51972005505', '𝐌𝐚𝐠𝐨𝐁𝐨𝐭', true],
+  ['51972005505', '@0_mago.ff', true],
   ['51972005505', '@0_mago.ff', true],
 ] // Cambia los numeros que quieras
-global.mods = [] 
-global.prems = [] 
+global.mods = [51972005505] 
+global.prems = [51972005505] 
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
