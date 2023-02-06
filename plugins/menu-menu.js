@@ -460,7 +460,7 @@ mediaUrl: null,
 title: '🧿MAGO BOT🏓',
 body: null,
 thumbnail: img,
-sourceUrl: `https://youtu.be/HoxZuQokeMM`
+sourceUrl: `https://youtube.com`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 await conn.sendFile(m.chat, vn, 'Hola.mp3', null, m, true, { type: 'audioMessage', ptt: true})
