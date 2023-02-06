@@ -17,7 +17,7 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭─────────────◆ 
 ┃ ✯〘MAGOBOT〙
-┃ ✯ Algunos de los comandos tienen Fallos
+┃ ✯ 𝙰𝚕𝚐𝚞𝚗𝚘𝚜 𝚍𝚎 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚝𝚒𝚎𝚗𝚎𝚗 𝙵𝚊𝚕𝚕𝚘𝚜
 ┃ ✯╭──────────◆
 ┃ ✯│▢ʜᴏʟᴀ:${taguser}
 ┃ ✯│▢ᴏᴡɴᴇʀ:ᴏꜰᴄ➟ MAGO
@@ -135,7 +135,7 @@ let str = `╭─────────────◆
 ┃ ✯│▢/ᴀᴅᴍɪɴs➟ᴛᴇxᴛᴏ➟𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜
 ┃ ✯│▢/ᴅᴇᴍᴏᴛᴇ➟@ᴛᴀɢ
 ┃ ✯│▢/ɪɴғᴏɢʀᴏᴜᴘ
-┃ ✯│▢/NOTIFY
+┃ ✯│▢/𝙽𝙾𝚃𝙸𝙵𝚈
 ┃ ✯│▢/ʀᴇsᴇᴛʟɪɴᴋ
 ┃ ✯│▢/ʟɪɴᴋ
 ┃ ✯│▢/sᴇᴛɴᴀᴍᴇ➟ᴛᴇxᴛᴏ
@@ -443,7 +443,8 @@ let str = `╭─────────────◆
 ╰━━━━━━━━━━━──⊷`.trim()
 let buttons = [
 { buttonId: '.owner', buttonText: { displayText: '🧿ᴏᴡɴᴇʀ🏓' }, type: 1 },
-{ buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }]
+{ buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }
+{ buttonId: '.infobot', buttonText: { displayText: '🔮𝙰𝙳𝚀𝚄𝙸𝚁𝙸𝚁' }, type: 1 }]
 let buttonMessage = {
 image: imagen3 ,
 caption: str.trim(),
@@ -457,7 +458,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '🧿MAGO BOT🏓',
+title: '🧿𝐌𝐀𝐆𝐎 𝐁𝐎𝐓🏓',
 body: null,
 thumbnail: img,
 sourceUrl: `https://youtube.com`
@@ -465,7 +466,7 @@ sourceUrl: `https://youtube.com`
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 await conn.sendFile(m.chat, vn, 'Hola.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 } catch {
-conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 DEMORA EN MANDAR PORFAVOR ESPERA*', m)
+conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗]𝙴𝙻 𝙼𝙴𝙽𝚄 𝙳𝙴𝙼𝙾𝚁𝙰 𝙴𝙽 𝙼𝙰𝙳𝙰𝚁 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙴𝚂𝙿𝙴𝚁𝙰*', m)
 }}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
 handler.exp = 50
