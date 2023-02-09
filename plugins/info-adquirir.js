@@ -19,13 +19,12 @@ let neww = performance.now()
 let speed = neww - old
 let info = `
 ╠═〘 𝐀𝐃𝐐𝐔𝐈𝐑𝐈𝐑 𝐀 𝐌𝐀𝐆𝐎𝐁𝐎𝐓 〙 ═
-╠ *Hola Buenas Soy MagoBot*
-╠ El Peecio de mi Bot es de 2.50 Soles 
-╠ Tenemos la promocion de 3 grupos por 5 soles
-╠ el bot es de uso permanente y no tendras que pagar  mensual mente
-╠.....................................
-╠ Tenemos casi todos los metode pago de distintos paises
-╠ El numero de mi owner es +51972005505
+_Hola Soy MagoBot un Saludo 🙋‍♂️_
+El Precio para obtener a MagoBot es Muy barato es de S/ 2.50 , Tenemos la Oferta de 3 Grupos x S/ 5.00 Soles . (SOLO ES UN SOLO PAGO NO ES MENSUAL)
+
+💸 Tenemos Casi Todos los métodos de Pago de distintos países Escríbele a mi Owner
+
+*+51972005505*
 ╠═〘 𝐌𝐚𝐠𝐨𝐁𝐨𝐭 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
