@@ -34,8 +34,7 @@ let info = `
 ╠➥ [☑️] 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
 ╠
-╠═〘 𝐌𝐚𝐠𝐨𝐁𝐨𝐭 〙 ═
-`.trim() 
+╠═〘 𝐌𝐚𝐠𝐨𝐁𝐨𝐭 〙 ═`.trim() 
 let buttons = [
 { buttonId: '.owner', buttonText: { displayText: 'OWNER' }, type: 1 },
 { buttonId: '.adquirir', buttonText: { displayText: 'ADQUIRIR' }, type: 1 }]
