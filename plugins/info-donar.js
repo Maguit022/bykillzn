@@ -15,7 +15,7 @@ let donar =`
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
 conn.sendHydrated(m.chat, donar, wm, null, 'https://www.instagram.com/0_mago.ff/', '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
-handler.help = ['donasi']
-handler.tags = ['info']
-handler.command = /^dona(te|si)|donar|apoyar$/i
+handler.help = ['instagram']
+handler.tags = ['instagram']
+handler.command = /^dona(te|si)|insta|apoyara$/i
 export default handler
