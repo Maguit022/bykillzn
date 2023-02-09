@@ -36,6 +36,9 @@ let info = `
 ╠
 ╠═〘 𝐌𝐚𝐠𝐨𝐁𝐨𝐭 〙 ═
 `.trim() 
+let buttons = [
+    { buttonId: '.owner', buttonText: { displayText: 'OWNER' }, type: 1 },
+    { buttonId: '.adquirir', buttonText: { displayText: 'ADQUIRIR' }, type: 1 }]
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
