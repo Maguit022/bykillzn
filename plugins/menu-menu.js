@@ -366,6 +366,24 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 let buttons = [
 { buttonId: '.owner', buttonText: { displayText: 'OWNER' }, type: 1 },
 { buttonId: '.adquirir', buttonText: { displayText: 'ADQUIRIR' }, type: 1 }]
+let buttonMessage = {
+image: imagen3 ,
+caption: str.trim(),
+mentions: [m.sender],
+footer: `*${wm}*`,
+buttons: buttons,
+headerType: 4,
+contextInfo: {
+mentionedJid: [m.sender],
+externalAdReply: {
+showAdAttribution: true,
+mediaType: 'VIDEO',
+mediaUrl: null,
+title: '🧿MAGO BOT🏓',
+body: null,
+thumbnail: img,
+sourceUrl: `https://youtube.com`
+}}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 await conn.sendFile(m.chat, vn, 'Hola.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 } catch {
