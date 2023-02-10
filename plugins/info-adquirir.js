@@ -24,7 +24,7 @@ El Precio para obtener a MagoBot es Muy barato es de S/ 2.50 , Tenemos la Oferta
 
 💸 Tenemos Casi Todos los métodos de Pago de distintos países Escríbele a mi Owner
 
-*+51972005505*
+http://wa.me/+51972005505
 ╠═〘 𝐌𝐚𝐠𝐨𝐁𝐨𝐭 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
