@@ -1,4 +1,4 @@
-import os from 'os'
+ import os from 'os'
 import util from 'util'
 import sizeFormatter from 'human-readable'
 import MessageType from '@adiwajshing/baileys'
@@ -19,7 +19,7 @@ let neww = performance.now()
 let speed = neww - old
 let info = `
 ╠═〘 *SAGIO STORE* 〙 ═
-*Hola que tal , Soy el Owner de Mago Bot*
+*Hola que tal ${taguser} , Soy el Owner de Mago Bot*
 Mago Bot es un producto de mi tienda digital @sagio.storee
 es una tienda con productos digitales para tu agrado 
 
