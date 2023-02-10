@@ -365,7 +365,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _.listprem_`.trim()
 let buttons = [
 { buttonId: '.owner', buttonText: { displayText: 'OWNER' }, type: 1 },
-{ buttonId: '.adquirir', buttonText: { displayText: 'ADQUIRIR' }, type: 1 }]
+{ buttonId: '.adquirir', buttonText: { displayText: 'ADQUIRIR' }, type: 1 }
+{ buttonId: '.tienda', buttonText: { displayText: 'TIENDA' }, type: 1 }]
 let buttonMessage = {
 image: imagen3 ,
 caption: str.trim(),
