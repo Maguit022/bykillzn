@@ -18,9 +18,9 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
-╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
+╠═〘 *SAGIO STORE* 〙 ═
 *Hola que tal , Soy el Owner de Mago Bot*
-Mago Bot es un producto de mi tienda digistal @sagio.storee
+Mago Bot es un producto de mi tienda digital @sagio.storee
 es una tienda con productos digitales para tu agrado 
 
 PRECIOS MUY BARATOS CON CASI TODOS LOS METODOS DE PAGO QUE HAY
